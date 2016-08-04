@@ -1,0 +1,20 @@
+<ion-view view-title="Dashboard">
+  <ion-view view-title="Example">
+    <ion-content>
+      <img ng-show="imgURI !== undefined" ng-src="{{imgURI}}">
+      <img ng-show="imgURI === undefined" ng-src="http://placehold.it/300x300">
+
+      <button ng-click="takePicture()" class="button icon-left ion-camera button-outline button-balanced">
+        Take Picture
+      </button>
+      <button ng-click="selectPicture()" class="button icon-left ion-image button-outline button-positive">
+        Select From Gallery
+      </button>
+
+      <label class="item item-input">
+        <input type="text" id = "test" placeholder="File Path">
+      </label>
+
+    </ion-content>
+  </ion-view>
+</ion-view>
