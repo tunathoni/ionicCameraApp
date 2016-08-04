@@ -26,7 +26,7 @@ Issues have been disabled on this repo, if you do find an issue or have a questi
 
 # ionicCameraApp
 
-To complete depencies you can run
+To complete dependencies you can run
 
 ```bash
 $ ionic state restore
